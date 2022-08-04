@@ -1,9 +1,25 @@
+/*
+--------------
+Variables
+--------------
+ */
+
+:root {
+  --clr-text-primary: #61dafb;
+}
+
+/*#grad1 {*/
+/*  background-color: #1c0080; !* For browsers that do not support gradients *!*/
+/*  background-image: linear-gradient(to bottom right, black, yellow);*/
+/*}*/
+
 .App {
   text-align: center;
+
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -15,17 +31,20 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
+  /*padding-top: 30px;*/
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-bottom: 1px solid var(--clr-text-primary)
 }
 
 .App-link {
   color: #61dafb;
+  font-size: 1.2rem;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +55,11 @@
     transform: rotate(360deg);
   }
 }
+
+
+.subheader-blue {
+  color: var(--clr-text-primary);
+  font-size: 1.2rem;
+}
+
+
