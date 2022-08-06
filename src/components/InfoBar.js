@@ -1,6 +1,10 @@
 import rocket from "../assets/rocket.png";
+import { useSelector, useDispatch } from "react-redux";
 
 const InfoBar = () => {
+  let dispatch = useDispatch();
+  let store = useSelector((store) => store);
+
   return (
     <div className="App">
       <div>

@@ -39,7 +39,10 @@ Variables
   justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
-  border-bottom: 1px solid var(--clr-text-primary)
+  /*border-bottom: 1px solid var(--clr-text-primary);*/
+  margin-top: 25px;
+  padding: 0px;
+  height: 50px;
 }
 
 .App-link {
@@ -62,4 +65,151 @@ Variables
   font-size: 1.2rem;
 }
 
+.outerspace-container {
+  color: white;
+  position: absolute;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: auto;
+}
+.outerspace-ship-text {
+  margin: 1px;
+  padding: 0;
+}
+.earth-holder {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.earth {
+  margin-top: 135px;
+}
+
+.login-container {
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: right;
+}
+.login-header {
+  color: lightgray;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.login-input {
+  background-color: gray;
+  font-size: 1.2rem;
+  /*font-weight: bold;*/
+  padding: 3px;
+  width: 150px;
+}
+
+/****** space planets/ect **********/
+.space-assets {
+  position: relative;
+}
+/***/
+#stratosphere {
+  color: dodgerblue;
+  top: 600px;
+  left: 200px;
+  font-weight: bold;
+  font-size: 2.5rem;
+  z-index: 999;
+}
+#moon {
+  top: 3400px;
+  left: 200px;
+}
+#astroid {
+  top:1200px;
+  left: 375px;
+}
+#mars {
+  top: 20000px;
+  left: 175px;
+}
+#space-station {
+  top: 1600px;
+  left: 125px;
+}
+#void {
+  top: 5000px;
+  left: 250px;
+}
+#restaurant {
+  top: 15000px;
+  left: 200px;
+}
+#satellite {
+  top: 1000px;
+  left: 200px;
+}
+
+/****** launch form **********/
+#launch-form {
+
+}
+.launch-form label {
+  margin-top: 13px;
+  margin-bottom: 3px;
+  display: inline-block;
+  font-weight: bold;
+  width: 200px;
+  color: #cbcbcb;
+}
+#launch-form input {
+  font-size: 1.2rem;
+  width: 200px;
+  background-color: #cbcbcb;
+  border: none;
+  padding: 2px;
+}
+#launch-form button {
+  padding: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 35px;
+  width: 208px;
+  background-color: #cbcbcb;
+}
+#launch-form button:hover {
+  background-color: #908f8f;
+  color: #212121;
+  cursor: pointer;
+}
+.launch-error {
+  color: red;
+  font-size: 1.2rem;
+  max-width: 207px;
+  font-weight: bold;
+}
+.launch-reset {
+  color: lightgray;
+}
+.launch-reset:hover {
+  cursor: pointer;
+  color: gray;
+}
+.outerspae-edit-mission {
+  color: #ff9090;
+  text-decoration: underline;
+  font-style: italic;
+  cursor: pointer;
+}
+.outerspae-edit-mission:hover {
+  color: #ffb7b7;
+  cursor: pointer;
+}
+.outerspace-href {
+  color: #7a9af8;
+  text-decoration: underline;
+  font-style: italic;
+}
+.outerspace-href:hover {
+  color: #aabdf8;
+  cursor: pointer;
+}
 
