@@ -1,7 +1,8 @@
-import  { getGrams, deleteGram, addGram } from "./gramActions";
+import  { getGrams, deleteGram, addGram, adjustGram } from "./gramActions";
 
 export {
   getGrams,
   deleteGram,
-  addGram
+  addGram,
+  adjustGram
 }

@@ -10,7 +10,11 @@ export default (currentGramState = [], action) => {
       return currentGramState;
     case "DELETE_GRAMS":
       return action.payload;
-    case "UPDATE_GRAMS":
+    case "ADJUST_GRAM":
+      console.log("REDUCER - UPDATE SUCCESS - ",action.payload);
+    case "ADJUST_GRAM_FAIL":
+      console.log("REDUCER - UPDATE FAIL - ",action.payload)
+      return currentGramState
     default:
       return currentGramState;
   }
